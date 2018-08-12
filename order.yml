@@ -13,3 +13,9 @@ spring:
     password: zoulu19900206
   jpa:
     show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
