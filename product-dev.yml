@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Zoulu19900206@
+    url: jdbc:mysql://182.254.221.58:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 182.254.221.58
+    port: 5672
+    username: admin
+    password: zoulu19900206
+  jpa:
+    show-sql: true
