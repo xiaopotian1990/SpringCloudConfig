@@ -5,13 +5,6 @@ spring:
     password: Zoulu19900206@
     url: jdbc:mysql://182.254.221.58:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   redis:
-    lettuce:
-      shutdown-timeout: 100
-      pool:
-        min-idle: 0
-        max-wait: -1
-        max-idle: 8
-        max-active: 8
     database: 1
     host: 182.254.221.58
     password: zoulu19900206
