@@ -7,10 +7,12 @@ spring:
   redis:
     password:
     host: redis
+    database: 15
+    port: 6389
   # zipkin
   zipkin:
     enabled: true
-    base-url: http://pigx-zipkin
+    base-url: http://horse-zipkin
   sleuth:
     web:
       client:
@@ -87,4 +89,4 @@ security:
         - /v2/api-docs
     resource:
       loadBalanced: true
-      token-info-uri: http://pigx-auth/oauth/check_token
+      token-info-uri: http://horse-auth/oauth/check_token
